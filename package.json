@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@genkit-ai/googleai": "^1.14.0",
     "@hookform/resolvers": "^5.1.1",
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-dialog": "^1.1.14",
@@ -20,9 +21,10 @@
     "axios": "^1.10.0",
     "class-variance-authority": "^0.7.1",
     "date-fns": "^2.30.0",
+    "genkit": "^1.14.0",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.525.0",
-    "next": "15.3.4",
+    "next": "^15.3.4",
     "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",
