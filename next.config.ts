@@ -27,6 +27,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // ❌ REMOVE THIS: allowedDevOrigins is invalid
+  // devIndicators: {
+  //   allowedDevOrigins: ['https://*.cloudworkstations.dev'],
+  // },
 };
 
 export default nextConfig;

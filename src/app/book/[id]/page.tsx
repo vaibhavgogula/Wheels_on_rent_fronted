@@ -190,7 +190,7 @@ export default function BookVehiclePage({ params }: { params: Promise<{ id: stri
                    size="lg" 
                    className="w-full" 
                    onClick={handleBooking} 
-                   disabled={!date?.from || !date?.to || durationInDays <= 0 || isSubmitting || vehicle.status !== "AVAILABLE"}
+                   disabled={!date?.from || !date?.to || durationInDays <= 0 || isSubmitting || !vehicle.available}
                  >
                     {isSubmitting ? 'Processing...' : 'Confirm & Book Now'}
                 </Button>

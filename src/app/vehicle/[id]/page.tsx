@@ -141,7 +141,7 @@ export default function VehicleDetailsPage({ params }: { params: Promise<{ id: s
             <CardContent>
                 <Button size="lg" className="w-full" asChild disabled={!vehicle.available}>
                     <Link href={`/book/${vehicle.id}`}>
-                      {vehicle.status === "AVAILABLE" ? 'Reserve Now' : 'Not Available'}
+                      {vehicle.available ? 'Reserve Now' : 'Not Available'}
                     </Link>
                 </Button>
             </CardContent>
